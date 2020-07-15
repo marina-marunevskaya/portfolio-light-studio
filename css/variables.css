@@ -5,4 +5,7 @@
 
     /* utils.css */
     --container-max-width: 1200px;
+
+    /* Font Families */
+    --primary-font-family: 'Open Sans', sans-serif;
 }

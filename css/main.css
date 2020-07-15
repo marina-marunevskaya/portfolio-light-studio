@@ -4,5 +4,5 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font-family);
 }
