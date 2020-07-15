@@ -9,3 +9,4 @@
 - utils.css was added and connected to index.html.
 - Font Awesome was added.
 - font-family settings were moved to a variable.
+- Main navigation was added.
