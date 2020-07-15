@@ -2,4 +2,7 @@
     /* reset.css */
     --default-font-size: 1rem;
     --default-font-weight: 300;
+
+    /* utils.css */
+    --container-max-width: 1200px;
 }

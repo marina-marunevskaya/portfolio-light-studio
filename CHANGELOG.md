@@ -6,3 +6,4 @@
 - reset.css and variables.css were added and connected to index.html.
 - main.css was added and connected to index.html.
 - Background and font settings were added.
+- utils.css was added and connected to index.html.
