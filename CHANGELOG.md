@@ -7,3 +7,4 @@
 - main.css was added and connected to index.html.
 - Background and font settings were added.
 - utils.css was added and connected to index.html.
+- Font Awesome was added.
