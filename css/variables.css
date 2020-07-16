@@ -9,8 +9,10 @@
     /* Background Colors */
     --primary-background-color: 244, 245, 247; /* #f4f5f7 */
     --secondary-background-color: 183, 198, 108; /* #b7c66c */
+    --hover-link-background-color: 158, 176, 69; /* #9eb045 */
 
     /* Colors */
+    --primary-color: 70, 90, 32; /* #465a20 */
     --secondary-color: 255, 255, 255; /* #ffffff */
     --navigation-link-color: 81, 105, 38; /* #516926 */
 
@@ -18,9 +20,11 @@
     --primary-font-family: 'Open Sans', sans-serif;
 
     /* Font Sizes */
+    --primary-header-size: 2.5rem;
     --navigation-link-size: 1.2rem;
 
     /* Font Weights */
+    --primary-font-weight: 700;
     --secondary-font-weight: 600;
 
     /* Screen Widths
@@ -35,4 +39,16 @@
 
     /* Transitions */
     --transition-duration: 1s;
+}
+
+@media (max-width: 168px) {
+    :root {
+        --primary-header-size: 2.2rem;
+    }
+}
+
+@media (min-width: 820px) {
+    :root {
+        --primary-header-size: 3rem;
+    }
 }

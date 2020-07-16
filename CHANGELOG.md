@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## July 16, 2020
+- Main header information was added.
+
 ## July 15, 2020
 - A background photo, CHANGELOG.md and CREDITS.md were added.
 - An index.html with base HTML was added.
