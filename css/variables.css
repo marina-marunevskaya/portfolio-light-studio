@@ -15,12 +15,16 @@
     --primary-color: 70, 90, 32; /* #465a20 */
     --secondary-color: 255, 255, 255; /* #ffffff */
     --navigation-link-color: 81, 105, 38; /* #516926 */
+    --icon-color: 58, 75, 27; /* #3a4b1b */
+    --icon-hover-color: 81, 105, 38; /* #516926 */
 
     /* Font Families */
     --primary-font-family: 'Open Sans', sans-serif;
 
     /* Font Sizes */
     --primary-header-size: 2.5rem;
+    --secondary-header-size: 1.8rem;
+    --item-header-size: 1.4rem;
     --navigation-link-size: 1.2rem;
 
     /* Font Weights */
@@ -31,7 +35,7 @@
        Don't Work With Media Queries.
        For Keeping Everything In One Place
     */
-    --small-mobile-screen: 168px;
+    --small-mobile-screen: 200px;
     --tablet-screen: 820px;
 
     /* Sizes */
@@ -41,9 +45,10 @@
     --transition-duration: 1s;
 }
 
-@media (max-width: 168px) {
+@media (max-width: 200px) {
     :root {
-        --primary-header-size: 2.2rem;
+        --primary-header-size: 2.1rem;
+        --item-header-size: 1rem;
     }
 }
 

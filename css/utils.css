@@ -11,7 +11,24 @@
     flex-direction: column;
 }
 
+/* Section */
+.section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.section__header {
+    font-size: var(--secondary-header-size);
+    font-weight: var(--secondary-font-weight);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* Text Utils */
 .text-center {
     text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
 }

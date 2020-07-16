@@ -2,6 +2,7 @@
 
 ## July 16, 2020
 - Main header information was added.
+- Services section was added.
 
 ## July 15, 2020
 - A background photo, CHANGELOG.md and CREDITS.md were added.
