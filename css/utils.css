@@ -13,6 +13,7 @@
 
 /* Section */
 .section {
+    color: rgb(var(--primary-color));
     padding-bottom: 50px;
     padding-top: 50px;
 }

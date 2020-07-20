@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## July 20, 2020
+- Portfolio section was added.
+
 ## July 16, 2020
 - Main header information was added.
 - Services section was added.

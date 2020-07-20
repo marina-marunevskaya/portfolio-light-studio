@@ -73,7 +73,6 @@ html {
 
 .services {
     background-color: rgba(var(--primary-background-color), 0.5);
-    color: rgb(var(--primary-color));
 }
 
 .services:hover {
@@ -108,6 +107,76 @@ html {
     margin: 15px 0;
 }
 
+.portfolio {
+    background-color: rgba(var(--primary-background-color), 0.6);
+}
+
+.portfolio:hover {
+    background-color: rgba(var(--primary-background-color), 0.5);
+}
+
+.portfolio__block {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio__item {
+    background-color: rgba(var(--primary-background-color), 0.8);
+    padding: 10px;
+    text-align: center;
+    transition-duration: var(--transition-duration);
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.portfolio__item:hover {
+    background-color: rgb(var(--primary-background-color));
+}
+
+.portfolio__item__photo-container {
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+}
+
+.portfolio__item__photo-container:after {
+    background-color: rgb(var(--primary-background-color));
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    transition-duration: var(--transition-duration);
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+}
+
+.portfolio__item:hover .portfolio__item__photo-container:after {
+    opacity: 0;
+}
+
+.portfolio__item__photo {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.portfolio__item__title {
+    align-items: center;
+    flex: 1;
+    font-size: var(--item-header-size);
+    font-weight: var(--secondary-font-weight);
+    justify-content: center;
+    margin: 15px 0;
+}
+
 @media (max-width: 200px) {
     .main-header__info__link {
         padding: 10px;
@@ -116,6 +185,12 @@ html {
     .services__item {
         margin-left: 5px;
         margin-right: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio__block {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -128,5 +203,9 @@ html {
     .services__block {
         align-items: stretch;
         flex-direction: row;
+    }
+
+    .portfolio__block {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
