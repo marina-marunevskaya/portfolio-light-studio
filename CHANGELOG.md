@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## August 3, 2020
+- About section was added.
+
 ## July 20, 2020
 - Portfolio section was added.
 
