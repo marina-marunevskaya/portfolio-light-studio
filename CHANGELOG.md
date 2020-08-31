@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## August 31, 2020
+- Reviews section was added.
+
 ## August 3, 2020
 - About section was added.
 
