@@ -280,6 +280,7 @@ html {
 .contact__description {
     margin-bottom: 25px;
     padding: 0 10px;
+    text-align: center;
 }
 
 @media (max-width: 200px) {

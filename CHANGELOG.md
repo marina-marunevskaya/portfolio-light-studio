@@ -2,6 +2,7 @@
 
 ## September 1, 2020
 - Contact section was added.
+- Styles were updated.
 
 ## August 31, 2020
 - Reviews section was added.
