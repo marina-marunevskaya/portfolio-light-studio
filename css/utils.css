@@ -11,6 +11,59 @@
     flex-direction: column;
 }
 
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--form-max-width);
+    padding: 5px;
+}
+
+.form__title {
+    font-size: var(--item-header-size);
+    font-weight: var(--secondary-font-weight);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form__label {
+    font-weight: var(--secondary-font-weight);
+    margin-bottom: 10px;
+}
+
+.form__input {
+    border: 1px solid rgb(var(--secondary-background-color));
+    color: rgb(var(--primary-color));
+    max-width: 100%;
+    min-width: 100%;
+    outline: 0;
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.form__input:focus {
+    border: 1px solid rgb(var(--primary-color));
+    outline: 0;
+}
+
+.form__submit {
+    background-color: rgb(var(--secondary-background-color));
+    border: none;
+    color: rgb(var(--secondary-color));
+    cursor: pointer;
+    display: block;
+    font-weight: var(--secondary-font-weight);
+    padding: 10px 15px;
+}
+
 /* Section */
 .section {
     color: rgb(var(--primary-color));

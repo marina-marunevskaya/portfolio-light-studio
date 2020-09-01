@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 1, 2020
+- Contact section was added.
+
 ## August 31, 2020
 - Reviews section was added.
 

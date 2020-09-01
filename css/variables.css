@@ -31,6 +31,9 @@
     --primary-font-weight: 700;
     --secondary-font-weight: 600;
 
+    /* Forms */
+    --form-max-width: 600px;
+
     /* Screen Widths
        Don't Work With Media Queries.
        For Keeping Everything In One Place
