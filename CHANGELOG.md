@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 2, 2020
+- HTML validation errors were fixed.
+
 ## September 1, 2020
 - Contact section was added.
 - Styles were updated.
