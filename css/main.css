@@ -27,7 +27,7 @@ html {
     padding: 15px 20px;
     transition-duration: var(--transition-duration);
     transition-property: background-color, color;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: var(--transition-timing-function);
 }
 
 .navigation__link:hover {

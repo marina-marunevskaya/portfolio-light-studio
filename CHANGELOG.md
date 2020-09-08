@@ -6,6 +6,7 @@
 - Base HTML and styles reset were added.
 - Header was added.
 - HTML missing tags were added.
+- Minor refactoring was done.
 
 ## September 2, 2020
 - HTML validation errors were fixed.

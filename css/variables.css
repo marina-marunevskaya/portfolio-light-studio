@@ -3,6 +3,7 @@
     --default-font-size: 1rem;
     --default-font-weight: 400;
 
+    /* utils.css */
     --container-max-width: 1200px;
 
     /* Background Colors */
@@ -28,4 +29,5 @@
 
     /* Transitions */
     --transition-duration: 1s;
+    --transition-timing-function: ease-in-out;
 }
