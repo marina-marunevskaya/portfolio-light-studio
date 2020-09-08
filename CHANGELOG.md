@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 8, 2020
+- CSS and HTML files were removed.
+
 ## September 2, 2020
 - HTML validation errors were fixed.
 
