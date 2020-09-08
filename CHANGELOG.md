@@ -4,6 +4,7 @@
 - CSS and HTML files were removed.
 - Color palette was added.
 - Base HTML and styles reset were added.
+- Header was added.
 
 ## September 2, 2020
 - HTML validation errors were fixed.

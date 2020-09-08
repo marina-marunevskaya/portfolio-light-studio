@@ -2,4 +2,30 @@
     /* reset.css */
     --default-font-size: 1rem;
     --default-font-weight: 400;
+
+    --container-max-width: 1200px;
+
+    /* Background Colors */
+    --primary-background-color: 251, 252, 254; /* #fbfcfe */
+    --secondary-background-color: 162, 173, 99; /* #a2ad63 */
+
+    /* Colors */
+    --primary-color: #2B3618;
+    --secondary-color: #ffffff;
+
+    /* Font Families */
+    --primary-font-family: 'Raleway', sans-serif;
+
+    /* Font Sizes */
+    --navigation-link-font-size: 1.2rem;
+
+    /* Font Weights */
+    --primary-font-weight: 700;
+    --secondary-font-weight: 600;
+
+    /* Sizes */
+    --header-min-height: 100vh;
+
+    /* Transitions */
+    --transition-duration: 1s;
 }
