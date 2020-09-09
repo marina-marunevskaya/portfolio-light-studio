@@ -18,6 +18,7 @@
     --primary-font-family: 'Raleway', sans-serif;
 
     /* Font Sizes */
+    --primary-header-size: 2.5rem;
     --navigation-link-font-size: 1.2rem;
 
     /* Font Weights */
@@ -30,4 +31,16 @@
     /* Transitions */
     --transition-duration: 1s;
     --transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 200px) {
+    :root {
+        --primary-header-size: 2.1rem;
+    }
+}
+
+@media (min-width: 820px) {
+    :root {
+        --primary-header-size: 3rem;
+    }
 }

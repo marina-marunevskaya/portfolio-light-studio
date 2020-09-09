@@ -35,6 +35,40 @@ html {
     color: var(--secondary-color);
 }
 
+.header__content {
+    background-color: rgba(var(--primary-background-color), 0.25);
+}
+
+.header__content__title {
+    font-size: var(--primary-header-size);
+    font-weight: var(--primary-font-weight);
+    margin-bottom: 25px;
+}
+
+.header__content__link {
+    background-color: rgba(var(--secondary-background-color), 0.8);
+    border-radius: 25px;
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: var(--navigation-link-font-size);
+    font-weight: var(--secondary-font-weight);
+    padding: 15px 20px;
+    transition-duration: var(--transition-duration);
+    transition-property: background-color, border-radius;
+    transition-timing-function: var(--transition-timing-function);
+}
+
+.header__content__link:hover {
+    background-color: rgb(var(--secondary-background-color));
+    border-radius: 15px;
+}
+
+@media (max-width: 200px) {
+    .header__content__link {
+        padding: 10px;
+    }
+}
+
 @media (min-width: 820px) {
     .navigation__menu {
         flex-direction: row;

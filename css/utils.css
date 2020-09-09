@@ -6,6 +6,15 @@
 }
 
 /* Flexbox */
+.flex-1 {
+    flex: 1;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -14,6 +23,13 @@
 /* Icons */
 .icon {
     font-size: inherit;
+}
+
+/* Sections */
+.section {
+    color: var(--primary-color);
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 /* Text */
