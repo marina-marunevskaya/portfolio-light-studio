@@ -2,6 +2,7 @@
 
 ## September 9, 2020
 - Header content was added.
+- Footer with credits was added.
 
 ## September 8, 2020
 - CSS and HTML files were removed.

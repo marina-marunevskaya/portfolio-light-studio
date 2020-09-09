@@ -63,6 +63,12 @@ html {
     border-radius: 15px;
 }
 
+.footer {
+    background-color: rgb(var(--secondary-background-color));
+    color: var(--secondary-color);
+    padding: 20px 10px;
+}
+
 @media (max-width: 200px) {
     .header__content__link {
         padding: 10px;

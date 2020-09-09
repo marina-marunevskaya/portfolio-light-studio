@@ -25,6 +25,12 @@
     font-size: inherit;
 }
 
+/* Links */
+.external-link {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
 /* Sections */
 .section {
     color: var(--primary-color);
