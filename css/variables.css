@@ -13,12 +13,16 @@
     /* Colors */
     --primary-color: #2B3618;
     --secondary-color: #ffffff;
+    --icon-color: #435426;
+    --icon-hover-color: #5a7133;
 
     /* Font Families */
     --primary-font-family: 'Raleway', sans-serif;
 
     /* Font Sizes */
-    --primary-header-size: 2.5rem;
+    --primary-header-font-size: 2.5rem;
+    --section-title-font-size: 1.8rem;
+    --section-subtitle-font-size: 1.4rem;
     --navigation-link-font-size: 1.2rem;
 
     /* Font Weights */
@@ -35,12 +39,13 @@
 
 @media (max-width: 200px) {
     :root {
-        --primary-header-size: 2.1rem;
+        --primary-header-font-size: 2.1rem;
+        --section-subtitle-font-size: 1rem;
     }
 }
 
 @media (min-width: 820px) {
     :root {
-        --primary-header-size: 3rem;
+        --primary-header-font-size: 3rem;
     }
 }

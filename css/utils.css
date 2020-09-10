@@ -1,3 +1,8 @@
+/* Backgrounds */
+.primary-background {
+    background-color: rgb(var(--primary-background-color));
+}
+
 /* Containers */
 .container {
     margin-left: auto;
@@ -38,7 +43,24 @@
     padding-top: 50px;
 }
 
+.section__title {
+    font-size: var(--section-title-font-size);
+    font-weight: var(--secondary-font-weight);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: var(--section-subtitle-font-size);
+    font-weight: var(--secondary-font-weight);
+    margin: 15px 0;
+}
+
 /* Text */
 .text-center {
     text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
 }

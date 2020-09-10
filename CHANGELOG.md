@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 10, 2020
+- Services section was added.
+
 ## September 9, 2020
 - Header content was added.
 - Footer with credits was added.
