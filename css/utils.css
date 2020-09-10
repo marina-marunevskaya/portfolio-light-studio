@@ -1,10 +1,12 @@
 /* Backgrounds */
 .primary-background {
     background-color: rgb(var(--primary-background-color));
+    color: var(--primary-color);
 }
 
 .secondary-background {
     background-color: rgb(var(--secondary-background-color));
+    color: var(--secondary-color)
 }
 
 /* Containers */
@@ -42,7 +44,6 @@
 
 /* Sections */
 .section {
-    color: var(--primary-color);
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -51,7 +52,6 @@
     font-size: var(--section-title-font-size);
     font-weight: var(--secondary-font-weight);
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .section__subtitle {

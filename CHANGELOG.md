@@ -4,6 +4,7 @@
 - Services section was added.
 - Footer was updated.
 - Big images were replaced with smaller ones.
+- Portfolio section was added.
 
 ## September 9, 2020
 - Header content was added.
