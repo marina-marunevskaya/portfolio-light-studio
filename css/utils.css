@@ -3,6 +3,10 @@
     background-color: rgb(var(--primary-background-color));
 }
 
+.secondary-background {
+    background-color: rgb(var(--secondary-background-color));
+}
+
 /* Containers */
 .container {
     margin-left: auto;
