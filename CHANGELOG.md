@@ -3,6 +3,7 @@
 ## September 10, 2020
 - Services section was added.
 - Footer was updated.
+- Big images were replaced with smaller ones.
 
 ## September 9, 2020
 - Header content was added.
