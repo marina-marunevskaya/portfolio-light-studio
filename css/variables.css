@@ -29,6 +29,9 @@
     --primary-font-weight: 700;
     --secondary-font-weight: 600;
 
+    /* Line Heights */
+    --text-line-height: 1.5;
+
     /* Sizes */
     --header-min-height: 100vh;
 

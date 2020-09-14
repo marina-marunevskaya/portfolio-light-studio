@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 14, 2020
+- About section was added.
+
 ## September 10, 2020
 - Services section was added.
 - Footer was updated.

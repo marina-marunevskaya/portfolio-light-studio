@@ -36,6 +36,16 @@
     font-size: inherit;
 }
 
+/* Images */
+.image-cover {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 /* Links */
 .external-link {
     border-bottom-style: dotted;
@@ -61,6 +71,10 @@
 }
 
 /* Text */
+.text {
+    line-height: var(--text-line-height);
+}
+
 .text-center {
     text-align: center;
 }

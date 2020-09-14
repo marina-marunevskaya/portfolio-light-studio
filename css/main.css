@@ -87,10 +87,6 @@ html {
     border-bottom: 1px dotted var(--primary-color);
 }
 
-.services__item__description {
-    line-height: 1.5;
-}
-
 .portfolio__block {
     display: grid;
     grid-auto-rows: 1fr;
@@ -127,13 +123,20 @@ html {
     opacity: 0;
 }
 
-.portfolio__item__image {
-    height: 100%;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
+.about__block {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.about__image-container {
+    padding-top: 30%;
+    position: relative;
     width: 100%;
+}
+
+.about__description {
+    padding: 5px;
 }
 
 .footer {
@@ -165,5 +168,13 @@ html {
 
     .portfolio__block {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__block {
+        flex-direction: row;
+    }
+
+    .about__image-container {
+        padding-top: 25%;
     }
 }
