@@ -2,6 +2,7 @@
 
 ## September 14, 2020
 - About section was added.
+- About section ID was fixed.
 
 ## September 10, 2020
 - Services section was added.
