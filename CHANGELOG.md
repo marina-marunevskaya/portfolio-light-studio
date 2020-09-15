@@ -2,6 +2,7 @@
 
 ## September 15, 2020
 - Padding utils were added.
+- Reviews section was added.
 
 ## September 14, 2020
 - About section was added.

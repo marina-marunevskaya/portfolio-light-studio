@@ -129,6 +129,23 @@ html {
     width: 100%;
 }
 
+.review__item {
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 15px 20px 30px;
+}
+
+.review__item__title::after {
+    background-color: rgba(var(--secondary-background-color));
+    content: '';
+    display: block;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
 .footer {
     padding: 20px 10px;
 }
@@ -137,11 +154,23 @@ html {
     .header__content__link {
         padding: 10px;
     }
+
+    .review__item {
+        padding: 15px 15px 30px;
+    }
+
+    .review__item__title::after {
+        width: 90%;
+    }
 }
 
 @media (max-width: 500px) {
     .portfolio__block {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .review__item__title::after {
+        width: 70%;
     }
 }
 
