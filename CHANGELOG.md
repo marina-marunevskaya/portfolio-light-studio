@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 15, 2020
+- Padding utils were added.
+
 ## September 14, 2020
 - About section was added.
 - About section ID was fixed.

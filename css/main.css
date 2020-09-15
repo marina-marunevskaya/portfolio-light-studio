@@ -92,11 +92,6 @@ html {
     grid-auto-rows: 1fr;
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    padding: 10px;
-}
-
-.portfolio__item {
-    padding: 10px;
 }
 
 .portfolio__item__image-container {
@@ -126,17 +121,12 @@ html {
 .about__block {
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 
 .about__image-container {
     padding-top: 30%;
     position: relative;
     width: 100%;
-}
-
-.about__description {
-    padding: 5px;
 }
 
 .footer {
