@@ -146,6 +146,10 @@ html {
     width: 40%;
 }
 
+.contact__description {
+    text-align: justify;
+}
+
 .footer {
     padding: 20px 10px;
 }
@@ -156,7 +160,7 @@ html {
     }
 
     .review__item {
-        padding: 15px 15px 30px;
+        padding: 15px 5px 30px;
     }
 
     .review__item__title::after {
@@ -195,5 +199,9 @@ html {
 
     .about__image-container {
         padding-top: 25%;
+    }
+
+    .contact__description {
+        text-align: center;
     }
 }
