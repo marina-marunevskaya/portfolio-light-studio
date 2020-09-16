@@ -2,6 +2,7 @@
 
 ## September 16, 2020
 - Contact section was added.
+- Portfolio section was updated.
 
 ## September 15, 2020
 - Padding utils were added.
