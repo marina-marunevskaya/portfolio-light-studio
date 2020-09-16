@@ -1,5 +1,34 @@
 # CHANGELOG
 
+## September 16, 2020
+- Contact section was added.
+
+## September 15, 2020
+- Padding utils were added.
+- Reviews section was added.
+
+## September 14, 2020
+- About section was added.
+- About section ID was fixed.
+
+## September 10, 2020
+- Services section was added.
+- Footer was updated.
+- Big images were replaced with smaller ones.
+- Portfolio section was added.
+
+## September 9, 2020
+- Header content was added.
+- Footer with credits was added.
+
+## September 8, 2020
+- CSS and HTML files were removed.
+- Color palette was added.
+- Base HTML and styles reset were added.
+- Header was added.
+- HTML missing tags were added.
+- Minor refactoring was done.
+
 ## September 2, 2020
 - HTML validation errors were fixed.
 
