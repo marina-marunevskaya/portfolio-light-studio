@@ -1,0 +1,22 @@
+{
+	"name": "portfolio-light-studio",
+	"description": "A site for a fictitious interior design studio",
+	"private": true,
+	"version": "1.0.0",
+	"author": "Marina Marunevskaya",
+	"homepage": "https://github.com/marina-marunevskaya/portfolio-light-studio",
+	"license": "SEE LICENSE IN LICENSE",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marina-marunevskaya/portfolio-light-studio.git"
+	},
+	"scripts": {
+		"build": "gatsby build",
+		"start:develop": "gatsby develop"
+	},
+	"dependencies": {
+		"gatsby": "^2.24.62",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}

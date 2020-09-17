@@ -1,0 +1,7 @@
+# Gatsby
+.cache/
+
+# Visual Studio Code
+.vscode/
+
+node_modules/

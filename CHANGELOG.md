@@ -2,6 +2,7 @@
 
 ## September 17, 2020
 - HTML, CSS and JS files were removed.
+- Basic Gatsby setup was added.
 
 ## September 16, 2020
 - Contact section was added.
