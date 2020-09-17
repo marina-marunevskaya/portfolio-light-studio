@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 17, 2020
+- HTML, CSS and JS files were removed.
+
 ## September 16, 2020
 - Contact section was added.
 - Portfolio section was updated.
